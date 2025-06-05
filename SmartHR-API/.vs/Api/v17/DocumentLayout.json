@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90F6C4D6-8D1F-4D7B-8A72-1AB3D0109D67}|DataServices\\DataServices.csproj|c:\\users\\adm in\\desktop\\projects\\smarthr\\smarthr-api\\dataservices\\service\\employeeservice\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F6C4D6-8D1F-4D7B-8A72-1AB3D0109D67}|DataServices\\DataServices.csproj|solutionrelative:dataservices\\service\\employeeservice\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4400E37C-0FC5-4991-B568-BADBE47F8AC6}|DataModels\\DataModels.csproj|c:\\users\\adm in\\desktop\\projects\\smarthr\\smarthr-api\\datamodels\\employees\\employeedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4400E37C-0FC5-4991-B568-BADBE47F8AC6}|DataModels\\DataModels.csproj|solutionrelative:datamodels\\employees\\employeedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FDE0E3-3FA6-4E27-906F-1F2A0D755692}|DataEntities\\DataEntities.csproj|c:\\users\\adm in\\desktop\\projects\\smarthr\\smarthr-api\\dataentities\\employees\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FDE0E3-3FA6-4E27-906F-1F2A0D755692}|DataEntities\\DataEntities.csproj|solutionrelative:dataentities\\employees\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A2E95C-AB4D-4183-8BE6-162A6B0049B8}|DataCore\\DataCore.csproj|c:\\users\\adm in\\desktop\\projects\\smarthr\\smarthr-api\\datacore\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A2E95C-AB4D-4183-8BE6-162A6B0049B8}|DataCore\\DataCore.csproj|solutionrelative:datacore\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F6C4D6-8D1F-4D7B-8A72-1AB3D0109D67}|DataServices\\DataServices.csproj|c:\\users\\adm in\\desktop\\projects\\smarthr\\smarthr-api\\dataservices\\iservice\\iemployeeservice\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F6C4D6-8D1F-4D7B-8A72-1AB3D0109D67}|DataServices\\DataServices.csproj|solutionrelative:dataservices\\iservice\\iemployeeservice\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HRMSContext.cs",
+              "DocumentMoniker": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataCore\\HRMSContext.cs",
+              "RelativeDocumentMoniker": "DataCore\\HRMSContext.cs",
+              "ToolTip": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataCore\\HRMSContext.cs",
+              "RelativeToolTip": "DataCore\\HRMSContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:18:25.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataServices\\Service\\EmployeeService\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "DataServices\\Service\\EmployeeService\\EmployeeServices.cs",
+              "ToolTip": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataServices\\Service\\EmployeeService\\EmployeeServices.cs",
+              "RelativeToolTip": "DataServices\\Service\\EmployeeService\\EmployeeServices.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAIwMcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:38:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataServices\\IService\\IEmployeeService\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "DataServices\\IService\\IEmployeeService\\IEmployeeServices.cs",
+              "ToolTip": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataServices\\IService\\IEmployeeService\\IEmployeeServices.cs",
+              "RelativeToolTip": "DataServices\\IService\\IEmployeeService\\IEmployeeServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:37:51.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataModels\\Employees\\EmployeeDetailsModel.cs",
+              "RelativeDocumentMoniker": "DataModels\\Employees\\EmployeeDetailsModel.cs",
+              "ToolTip": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataModels\\Employees\\EmployeeDetailsModel.cs",
+              "RelativeToolTip": "DataModels\\Employees\\EmployeeDetailsModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:35:46.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataEntities\\Employees\\EmployeeDetails.cs",
+              "RelativeDocumentMoniker": "DataEntities\\Employees\\EmployeeDetails.cs",
+              "ToolTip": "C:\\Users\\Adm in\\Desktop\\Projects\\SmartHR\\SmartHR-API\\DataEntities\\Employees\\EmployeeDetails.cs",
+              "RelativeToolTip": "DataEntities\\Employees\\EmployeeDetails.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAGkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:35:40.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
