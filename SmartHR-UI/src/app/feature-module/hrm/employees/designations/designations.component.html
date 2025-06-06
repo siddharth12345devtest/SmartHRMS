@@ -98,52 +98,46 @@
                 </div>
                 <div class=" table-responsive">
                     <table matSort (matSortChange)="sortData($event)" class="mat-sort table datanew table-center datatable dataTable  mb-0">
+                        <!-- <table> -->
                         <thead class="thead-light">
                             <tr>
-                                <th class="no-sort">
+                                <!-- <th class="no-sort">
                                     <div class="form-check form-check-md" (click)="selectAll(initChecked)" (keydown.enter)="selectAll(initChecked)" tabindex="0">
                                         <input class="form-check-input" type="checkbox" id="select-all" [(ngModel)]="initChecked">
                                     </div>
-                                </th>
-                                <th mat-sort-header="des">Designation</th>
-                                <th mat-sort-header="dep">Departments</th>
-                                <th mat-sort-header="Noe">No of Employees</th>
+                                </th> -->
+                                <th mat-sort-header="des">Designation ID</th>
+                                <th mat-sort-header="des">Designation Name</th>
+                                <th mat-sort-header="dep">Department Name</th>
+                                <!-- <th mat-sort-header="Noe">No of Employees</th> -->
                                 <th  mat-sort-header="Status">Status</th>
                                 <th></th>
                             </tr>
                         </thead>
-                        <tbody>
-                            @for (data of tableData; track data) {
-                            <tr>
-                                <td>
-                                    <div class="form-check form-check-md">
-                                        <input class="form-check-input" type="checkbox"  [(ngModel)]="data.isSelected">
-                                    </div>
-                                </td>
-                                <td><a [routerLink]="routes.designations" class="fw-medium">{{data.Designation}}</a></td>
-                                <td>{{data.Department}}</td>
-                                <td>{{data.NoOfEmployees}}</td>
-                                <td>
-                                    <span class="badge d-inline-flex align-items-center badge-xs" [ngClass]="data.Status === 'Active'? 'badge-success':'badge-danger'">
-                                        <i class="ti ti-point-filled me-1"></i>{{data.Status}}
-                                    </span>
-                                </td>
-                                <td>
-                                    <div class="action-icon d-inline-flex">
-                                        <a href="javascript:void(0);" class="me-2" data-bs-toggle="modal" data-bs-target="#edit_designation"><i class="ti ti-edit"></i></a>
-                                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="ti ti-trash"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                                }
-                                @if (tableData.length === 0) {
-                                <tr>
-                                <td colspan="8">
-                                    <h5 class="no-record">No matching records found</h5>
-                                </td>
-                            </tr>
-                            }
+                       <tbody>
+
+                        <tr *ngFor="let data of tableData; trackBy: trackByFn">
+
+                            <td>{{ data.designationId }}</td>
+                            <td>{{ data.departmentName }}</td>
+                            <td>{{ data.designationName }}</td>
+                            <td>
+                            <span
+                                class="badge d-inline-flex align-items-center badge-xs"
+                                [ngClass]="{
+                                'bg-success': data.status === 'Active',
+                                'bg-danger': data.status !== 'Active'
+                                }"
+                            >
+                                <i class="ti ti-point-filled me-1"></i>{{ data.status }}
+                            </span>
+                            </td>
+                        </tr>
+                        <tr *ngIf="tableData.length === 0">
+                            <td colspan="4" class="text-center">No records found.</td>
+                        </tr>
                         </tbody>
+
                     </table>
                 </div>
                 
