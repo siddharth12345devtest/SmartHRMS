@@ -1,3 +1,4 @@
+using DataEntities.Designations;
 using DataEntities.Employees;
 using Microsoft.EntityFrameworkCore;
 namespace DataCore
@@ -18,6 +19,7 @@ namespace DataCore
         public DbSet<EmployeeEducationDetail> EmployeeEducationDetails { get; set; }
         public DbSet<EmployeeExperience> EmployeeExperiences { get; set; }
         public DbSet<EmployeeDocumentation> EmployeeDocumentations { get; set; }
+        public DbSet<Designation> Designations { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
