@@ -1,5 +1,7 @@
 using DataCore;
 using DataServices.Auth;
+using DataServices.IService;
+using DataServices.Service;
 using DataServices.Service.EmployeeService;
 using DataServices.Service.IEmployeeService;
 using HRMSApis.Filters;
@@ -25,6 +27,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 
 //HRMS Services
 builder.Services.AddScoped<IEmployeeServices, EmployeeServices>();
+builder.Services.AddScoped<IDesignationService, DesignationService>();
+
 
 // Adding Authentication
 builder.Services.AddAuthentication(options =>
